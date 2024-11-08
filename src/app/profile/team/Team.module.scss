@@ -1,0 +1,36 @@
+.main {
+    padding: 10vh 5vw;
+    box-sizing: border-box;
+    color: #000;
+
+    h1 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.7rem;
+        margin-bottom: 1em;
+    }
+    h2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 1em;
+    }
+    .userWrapper {
+        width: 100%;
+        background-color: #fff;
+        padding: 15px 20px;
+        border-radius: 10px;
+        margin-bottom: 2em;
+
+        .topWrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .userNumber {
+                font-size: 1.1rem;
+                font-weight: 600;
+                margin-bottom: 0.5em;
+            }
+        }
+    }
+}

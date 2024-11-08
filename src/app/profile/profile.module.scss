@@ -1,0 +1,102 @@
+.main {
+    padding: 8vh 4vw;
+    color: #000000;
+    box-sizing: border-box;
+
+    .userNumber {
+        font-size: large;
+        font-weight: 500;
+        
+        span{
+            display: flex;
+            align-items: center;
+
+            img{
+                margin-left: 0.5em;
+            }
+        }
+    }
+
+    .referenceCode {
+        margin-bottom: 1em;
+    }
+
+    .userProfileInfoWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        columns: 2;
+        width: 100%;
+        text-align: center;
+        height: fit-content;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-bottom: 1.5em;
+
+        div {
+            margin-bottom: 0.7em;
+        }
+    }
+
+    .optionsWrapper {
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+        background-color: #fff;
+        margin-bottom: 1.5em;
+        border-radius: 10px;
+    
+        ul {
+            list-style-type: none;
+    
+            li {
+                display: block;
+            }
+    
+            a {
+                display: flex;
+                justify-content: space-between;
+                height: 1.5em;
+                margin-bottom: 1em;
+                border-bottom: 1px solid rgba(#575757, 0.3);
+    
+                img {
+                    height: 70%;
+                    width: fit-content;
+                }
+            }
+    
+            li:last-child a {
+                color: #e21313;
+            }
+        }
+    }
+    .inviteWrapper{
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+        background-color: #fff;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 1.5em;
+    }
+    .downloadappLabel{
+        text-align: center;
+        font-size: large;
+        font-weight: 400;
+        margin-bottom: 1em;
+    }
+    .appLinksWrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 1em;
+        width: 100%;
+        margin-bottom: 2em;
+
+        div img{
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+    
+}

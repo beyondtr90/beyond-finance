@@ -1,0 +1,74 @@
+.main {
+    padding: 8vh 20vw;
+    color: #000000;
+    box-sizing: border-box;
+  
+    .mainLabel {
+      margin: 2em;
+      text-align: center;
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+    .inputWrapper {
+      width: 100%;
+  
+      input {
+        width: 100%;
+        padding: 8px 10px;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 3em;
+        color: #000000;
+      }
+      input:focus {
+        outline: none;
+      }
+    }
+    .btnWrapper {
+      width: 100%;
+      text-align: center;
+  
+      .submitBtn {
+        padding: 8px 15px;
+        font-size: 1rem;
+        background-color: #96a825;
+        border: none;
+        border-radius: 5px;
+      }
+    }
+  }
+  
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    font-size: 1.1rem;
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    p{
+        margin-bottom: 1em;
+    }
+    button{
+        padding: 5px 12px;
+        font-size: 1rem;
+        background-color: #96a825;
+        border: none;
+        border-radius: 5px;
+    }
+  }
+  

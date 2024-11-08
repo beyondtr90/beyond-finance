@@ -1,0 +1,121 @@
+.main {
+    padding: 12vh 10vw;
+    margin-top: 7vh 0vh;
+
+    input {
+        color: #000000;
+        background-color: #fff;
+        border: none;
+        padding: 10px 5px;
+        border-radius: 10px;
+        margin-bottom: 2em;
+
+        &::placeholder {
+            color: #575757;
+            font-weight: 500;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        .logoWrapper {
+            width: 50%;
+            height: auto;
+            margin-bottom: 2em;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .regTitle {
+        text-align: center;
+        color: #575757;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+
+    section {
+        span {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 0.5em;
+        }
+        .phoneWrapper {
+            display: flex;
+
+            select {
+                padding: 8px 5px;
+                border-radius: 5px;
+                border: none;
+                background-color: #96a825;
+                color: #fff;
+                font-weight: 500;
+
+                option {
+                    background-color: #fff;
+                    color: #96a825;
+                }
+            }
+            .phoneInput {
+                width: 100%;
+                height: auto;
+                margin-left: 10px;
+            }
+        }
+
+        .otherInputsWrapper {
+            width: 100%;
+
+            a{
+                text-decoration: underline;
+            }
+
+            input {
+                width: 100%;
+            }
+        }
+        a {
+            display: block;
+            margin-bottom: 1em;
+            color: #000000;
+        }
+        .btnWrapper {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 1em;
+
+            button {
+                padding: 10px 25px;
+                background-color: #96a825;
+                border: none;
+                border-radius: 5px;
+                font-weight: bold;
+                color: #fff;
+                font-size: 1.1rem;
+                cursor: pointer;
+            }
+        }
+        .loginbtn {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            a {
+                padding: 5px 15px;
+                color: #000000;
+                font-weight: 500;
+                font-size: 1.1rem;
+                width: fit-content;
+            }
+        }
+    }
+}
