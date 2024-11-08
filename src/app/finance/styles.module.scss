@@ -1,0 +1,30 @@
+.main{
+    height: 50vh;
+    padding: 8vh 20vw;
+    box-sizing: border-box;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .notFoundWrapper{
+        text-align: center;
+
+        h1{
+            font-size: 4rem;
+        }
+        p{
+            font-size: 1.2rem;
+            margin-bottom: 1em;
+        }
+        a{
+            display: block;
+            color: blueviolet;
+        }
+        .routeLink{
+            color: #000;
+            cursor: default;
+            margin-bottom: 1em;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.page {
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+  
+    .main {
+      max-width: 1200px;
+      width: 100%;
+      padding: 12vh 15vw;
+      box-sizing: border-box;
+      color: #000;
+      text-align: center;
+  
+      .wrapper {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 1em;
+  
+        .logoWr {
+          width: 100%;
+  
+          img {
+            width: 60%;
+          }
+        }
+        .inputWr {
+          margin-top: 2em;
+  
+          input {
+            width: 80%;
+            padding: 7px 12px;
+            background-color: #ebe9e9;
+            border: none;
+            border-radius: 2px;
+            margin-bottom: 2em;
+            color: #000;
+            font-size: 1.1rem;
+          }
+          input:focus {
+            outline: none;
+          }
+        }
+        button {
+          padding: 10px 15px;
+          border-radius: 5px;
+          border: none;
+          font-size: 1rem;
+          background-color: #96a825;
+          font-weight: 600;
+        }
+        .error {
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
+  
