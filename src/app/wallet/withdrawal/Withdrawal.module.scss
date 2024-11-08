@@ -1,0 +1,91 @@
+.main{
+    padding: 8vh 10vw;
+    color: #000000;
+    box-sizing: border-box;
+
+    input:focus{
+        outline: none;
+    }
+
+    .currencyLabel{
+        margin-top: 2em;
+        font-size: 1.1rem;
+    }
+    .currencyImg{
+        width: 100%;
+
+        img{
+            width: 15%;
+            height: fit-content;
+        }
+    }
+    .tronLabel{
+        font-size: 1.1rem;
+    }
+    .tron{
+        width: 100%;
+        margin-bottom: 0.5em;
+
+        div{
+            width: fit-content;
+            background-color: #575757;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 500;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+    .addressLabel{
+        font-size: 1.1rem;
+    }
+    .withdrawalInput{
+        width: 100%;
+        background-color: #fff;
+        color: #000000;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 7px;
+        margin-bottom: 1em;
+        font-size: 1rem;
+    }
+    .btnWrapper{
+        width: 100%;
+        text-align: center;
+
+        button{
+            padding: 10px 10px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            border: none;
+            border-radius: 5px;
+            background-color: #96a825;
+            margin-bottom: 2em;
+        }
+    }
+    .withBtnWr{
+        border: 1px solid #d2d2d2;
+        border-radius: 5px;
+        background-color: #fff;
+        padding: 10px;
+        margin-bottom: 2em;
+
+        a{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        img{
+            width: 1.2em;
+            height: 1.2em;
+        }
+    }
+    .infos{
+        width: 100%;
+        height: fit-content;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+
+    }
+}

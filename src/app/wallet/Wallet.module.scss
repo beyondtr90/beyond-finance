@@ -1,0 +1,30 @@
+.main {
+    padding: 8vh 4vw;
+    color: #000000;
+
+    .balanceWrapper {
+        width: 100%;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 2em;
+    }
+    .currentFundWrapper{
+        width: 100%;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 2em;
+        box-shadow: 5px 2px 0 2px #96a825;
+    }
+    .walletInfo{
+        width: 100%;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+
+        li{
+            margin-bottom: 1em;
+        }
+    }
+}

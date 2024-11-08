@@ -1,0 +1,63 @@
+.main {
+    padding: 8vh 5vw;
+    color: #000000;
+    box-sizing: border-box;
+
+    .currencyLabel {
+        margin-top: 2em;
+        font-size: 1.1rem;
+    }
+    .currencyImg {
+        width: 100%;
+
+        img {
+            width: 15%;
+            height: fit-content;
+        }
+    }
+    .tronLabel {
+        font-size: 1.1rem;
+    }
+    .tron {
+        width: 100%;
+        margin-bottom: 0.5em;
+
+        div {
+            width: fit-content;
+            background-color: #575757;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 500;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+    .addressLabel {
+        font-size: 1.1rem;
+    }
+    .qrWrapper {
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    .depositForm{
+        text-align: center;
+        
+        button{
+            text-align: center;
+            padding: 10px 15px;
+            background-color: #96a825;
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 10px;
+            border: none;
+            margin-bottom: 2em;
+        }
+    }
+    .infos {
+        width: 100%;
+        height: fit-content;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+    }
+}
