@@ -1,0 +1,40 @@
+.table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 200px;
+  }
+
+  th {
+    background-color: #96a825;
+    color: white;
+  }
+
+  tr:hover {
+    background-color: #e7e7e7;
+  }
+  .btnWr{
+
+    button{
+      padding: 5px 7px;
+    }
+    button:first-child{
+      margin-right: 1em;
+      background-color: green;
+      border: none;
+    }
+    button:last-child{
+      background-color: red;
+      border: none;
+    }
+  }
+}

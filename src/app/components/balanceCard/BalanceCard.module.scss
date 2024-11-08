@@ -1,0 +1,28 @@
+.balanceCard {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    row-gap: 2em;
+
+    .balance{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .withdrawalBtn {
+        padding: 10px 20px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        background-color: #575757;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .depositBtn {
+        padding: 10px 20px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        background-color: #96a825;
+        border-radius: 5px;
+        color: #fff;
+    }
+}

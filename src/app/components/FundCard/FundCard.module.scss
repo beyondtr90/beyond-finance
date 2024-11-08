@@ -1,0 +1,45 @@
+.fundCard {
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 5px 2px 0 2px #575757;
+    margin-bottom: 2em;
+
+    h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5em;
+    }
+    .infos,
+    .subInfos {
+        display: flex;
+        justify-content: space-between;
+    }
+    .subInfos{
+        font-size: 1.3rem;
+    }
+    .btnWrapper{
+        width: 100%;
+        text-align: center;
+
+        .activeBtn{
+            padding: 5px 10px;
+            background-color: #96a825;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        .passiveBtn{
+            padding: 5px 10px;
+            background-color: #575757;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+    }
+}
