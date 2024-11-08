@@ -1,0 +1,20 @@
+.main{
+    padding: 7vh 4vw;
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+
+        .infoWrapper{
+            background-color: #fff;
+            width: 100%;
+            height: fit-content;
+            padding: 20px;
+            font-size: 1.2rem;
+        }
+    }
+
+}
